@@ -4,12 +4,14 @@
 // Auteur: Jacob Julien
 // Date : 2020/09/04
 
+#include <iostream>     //Intègre le coffre à outil pour afficher à l'écran(o out output) ou pour lire sur le clavier(i in input)
+
 int main( /*Liste des paramètres séparés par une virgule le cas échéant*/)
 {
 	
 	
-	
-	
+	//affichage du message à l'écran
+	std::cout << "Bonjour à tous!";
 	
 	return 0;
 }
