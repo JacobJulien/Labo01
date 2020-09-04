@@ -1,17 +1,20 @@
-// But: Créer un programme qui affiche un message en sauvgardant plusieurs version de ce programme avec git et l'héberger sur la plateform GitHub
+// But: CrÃ©er un programme qui affiche un message en sauvgardant plusieurs version de ce programme avec git et l'hÃ©berger sur la plateform GitHub
 //
 //
 // Auteur: Jacob Julien
 // Date : 2020/09/04
 
-#include <iostream>     //Intègre le coffre à outil pour afficher à l'écran(o out output) ou pour lire sur le clavier(i in input)
+#include <iostream>     //IntÃ¨gre le coffre Ã  outil pour afficher Ã  l'Ã©cran(o out output) ou pour lire sur le clavier(i in input)
 
-int main( /*Liste des paramètres séparés par une virgule le cas échéant*/)
+int main( /*Liste des paramÃ¨tres sÃ©parÃ©s par une virgule le cas Ã©chÃ©ant*/)
 {
 	
+	//pour corriger les caractÃ¨res accentuÃ©s
+	setlocale(LC_ALL,"");
 	
-	//affichage du message à l'écran
-	std::cout << "Bonjour à tous!";
+	
+        //affichage du message Ã  l'Ã©cran
+	std::cout << "Bonjour Ã  tous!";
 	
 	return 0;
 }
